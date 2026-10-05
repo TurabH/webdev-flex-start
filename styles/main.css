@@ -18,6 +18,9 @@ h1, h2{
 
 nav ul li{
     display:inline;
+    padding-left:10px;
+    padding-right:10px;
+    border-left:1px solid #7E8AA2;
 }
 
 nav ul{
@@ -35,4 +38,8 @@ nav li a{
 }
 nav li a:hover{
     color: #7E8AA2;	
+}
+
+nav li:first-child{
+    border-left:none;	
 }
