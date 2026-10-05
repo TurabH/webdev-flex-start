@@ -1,0 +1,16 @@
+.sidebarTestNav li{
+    display: inline;
+}
+
+ul{
+    padding-left: 0;
+
+}
+nav ul li{
+    padding-left:10px;
+    padding-right:10px;
+    border-left:1px solid #7E8AA2;
+}
+nav li:first-child{
+    border-left:none;	
+}
